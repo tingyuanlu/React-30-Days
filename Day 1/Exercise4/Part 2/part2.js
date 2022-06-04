@@ -135,3 +135,37 @@ function generateColors(type, num) {
     }
   }
 }
+function shuffleArray(array) {
+  let currentIndex = array.length,
+    randomIndex;
+
+  while (currentIndex != 0) {
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+
+  return array;
+}
+
+function factorial(num) {
+  if (num == 1) return 1;
+  return num * factorial(num - 1);
+}
+
+function average(arry) {
+  let sum = 0;
+  let arrIsNum = arry.every((e) => e > 0);
+  if (arrIsNum) {
+    for (const element of arry) {
+      sum += element;
+    }
+    return sum;
+  } else {
+    return arrIsNum;
+  }
+}
