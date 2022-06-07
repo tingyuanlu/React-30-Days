@@ -1,0 +1,48 @@
+Exercises: What is React?
+What is React?
+- React is a declarative, efficient, and flexible JavaScript library for building user interfaces
+What is a library? 
+- library have developers build user interfaces (UIs) as a tree of small pieces called components.
+React is a JavaScript library for building a reusable user interface(UI).
+What is a single page application?
+- An application which has only one HTML page.
+What is a component ?
+- Components are independent and reusable bits of code
+What is the latest version of React?
+- 18.1.0
+What is DOM?
+- The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.
+What is React Virtual DOM?
+- The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM
+What does a web application or a website(composed of) have?
+- Web application is designed for interaction with end users. Website basically contains static content. The user of web application can read the content of web application and also manipulate the data. The user of website only can read the content of website but not manipulate .
+
+
+How to write a self closing HTML element?
+<base />
+<br />
+<col />
+<embed />
+<hr />
+<img />
+<input />
+<link />
+<meta />
+<param />
+<source />
+<track />
+What is an HTML attribute? Write some of them
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+
+What is JSX?
+const element = <h1>Hello, world!</h1>;
+
+What is babel?
+Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. 
+
+What is a transpiler?
+A transpiler (also called source-to-source compiler or a transcompiler) is a program that translates a source code from a language to another at the same level of abstraction (which makes it different from a compiler whose output is lower level than its input). 
