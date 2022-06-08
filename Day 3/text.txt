@@ -1,10 +1,25 @@
 What is a module?
+JavaScript modules allow you to break up your code into separate files.
+This makes it easier to maintain the code-base
+
 What is package?
+A package in Node. js contains all the files you need for a module.
+
 What is the difference between a module and a package.
+
 What is NPM?
+The name npm (Node Package Manager) stems from when npm first was created as a package manager for Node.js.
+
 What is Webpack?
+Webpack is a free and open-source module bundler for JavaScript. It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included.
+
 How do you create a new React project?
+$ npx create-react-app name-of-your-project
+
 What are the files and folders inside a project folder(package.json, package-lock.json or yarn.lock, .gitignore,node_modules and public)?
+
 What is your favorite code editor (I believe that it is Visual Studio Code)?
+Vscode
 Add different Visual Studio Code extensions to improve your productivity(eg. prettier, ESLint etc).
-Try to make a different custom module in a different file and import it to index.js.
+
+Try to make a different custom module in a different file and import it to index.js
