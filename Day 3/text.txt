@@ -7,6 +7,10 @@ A package in Node. js contains all the files you need for a module.
 
 What is the difference between a module and a package.
 
+A module is just a file containing lines of JavaScript code.
+A library uses one or many modules to provide a set of features.
+A package is a downloadable, versioned library. Think of someone putting it in a box and shipping it to you, so you can import it and use it in combination with your own code.
+
 What is NPM?
 The name npm (Node Package Manager) stems from when npm first was created as a package manager for Node.js.
 
